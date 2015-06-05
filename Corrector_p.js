@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name            Corrector_p
 // @namespace       TimidScript
 // @version         1.0.0
@@ -43,7 +43,7 @@ function State1() {
 function State2() {
     var StatBox = document.getElementsByClassName("generaltable generalbox quizreviewsummary")[0];
     var StatBoxChild = StatBox.firstChild;
-    StatBoxChild.innerHTML = '<table class="generaltable generalbox quizreviewsummary" id="yui_3_17_2_3_1433442165944_274"><tbody id="yui_3_17_2_3_1433442165944_273"><tr id="yui_3_17_2_3_1433442165944_272"><th class="cell" scope="row">Тест начат</th><td class="cell" id="yui_3_17_2_3_1433442165944_271">Четверг, 4 Июнь 2015, 20:16</td></tr><tr><th class="cell" scope="row">Состояние</th><td class="cell">Завершено</td></tr><tr><th class="cell" scope="row">Завершен</th><td class="cell">Четверг, 4 Июнь 2015, 20:17</td></tr><tr><th class="cell" scope="row">Прошло времени</th><td class="cell">7 мин. 34 сек.</td></tr><tr><th class="cell" scope="row">Оценка</th><td class="cell"><b>10,00</b> из 15,00 (<b>66</b>%)</td></tr><tr><th class="cell" scope="row">Отзыв</th><td class="cell">отлично, тест пройден</td></tr></tbody></table>';
+    StatBoxChild.innerHTML = '<table class="generaltable generalbox quizreviewsummary" id="yui_3_17_2_3_1433442165944_274"><tbody id="yui_3_17_2_3_1433442165944_273"><tr id="yui_3_17_2_3_1433442165944_272"><th class="cell" scope="row">Тест начат</th><td class="cell" id="yui_3_17_2_3_1433442165944_271">5 Июнь 2015, 10:10</td></tr><tr><th class="cell" scope="row">Состояние</th><td class="cell">Завершено</td></tr><tr><th class="cell" scope="row">Завершен</th><td class="cell">Пятница, 5 Июнь 2015, 10:17</td></tr><tr><th class="cell" scope="row">Прошло времени</th><td class="cell">7 мин. 34 сек.</td></tr><tr><th class="cell" scope="row">Оценка</th><td class="cell"><b>10,00</b> из 15,00 (<b>66</b>%)</td></tr><tr><th class="cell" scope="row">Отзыв</th><td class="cell">отлично, тест пройден</td></tr></tbody></table>';
 }
 
 function State3() {
